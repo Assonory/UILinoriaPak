@@ -188,7 +188,6 @@ local SaveManager = {} do
 		section:AddInput('SaveManager_ConfigName',    { Text = 'Config name' })
 
 		 
-
 		section:AddButton('Create config', function()
 			local name = Options.SaveManager_ConfigName.Value
 
