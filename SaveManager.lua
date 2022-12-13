@@ -187,7 +187,7 @@ local SaveManager = {} do
 		section:AddDropdown('SaveManager_ConfigList', { Text = 'Config list', Values = self:RefreshConfigList(), AllowNull = true })
 		section:AddInput('SaveManager_ConfigName',    { Text = 'Config name' })
 
-		section:AddDivider()
+		 
 
 		section:AddButton('Create config', function()
 			local name = Options.SaveManager_ConfigName.Value
